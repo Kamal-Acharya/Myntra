@@ -170,6 +170,9 @@ list-style: none;
     .card img{
        margin: 10px;
     }
+    #big{
+        width: 140%;
+    }
     .sale img {
         height: 50%;
         width: 104%;
