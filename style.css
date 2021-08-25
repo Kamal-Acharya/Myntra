@@ -30,8 +30,8 @@ justify-content: space-evenly;
 
 }
 .navbar-brand img{
-    height: 70px;
-    width: 120px;
+    height: 52px;
+    width: 81px;
 }
 .navbar ul{
     display: flex;
@@ -126,6 +126,28 @@ p {
 .lead {
     font-family: 'Sanchez 200', serif
 }
+#pop{
+    position: absolute;
+   display: none;
+    transform: translateX(350%);
+}
+#pop button{
+    border: 2px solid red;
+}
+#pop li{
+list-style: none;
+}
+#pop a{
+    text-decoration: none;
+    color: rgb(104, 97, 97);
+}
+#pop a:hover{
+   font-weight: bolder;
+}
+/* #pops:hover {
+   display: block;
+   cursor: pointer;
+} */
 
 @media (max-width:768px) {
     .cards{
