@@ -162,22 +162,27 @@ list-style: none;
       grid-template-columns: repeat(3,1fr);
     }
     .navbar{
-        min-width: 550px;
+        min-width: 400px;
     }
     .card{
-        width: 10rem;
+        width: 8rem;
     }
     .card img{
        margin: 10px;
     }
     #big{
-        width: 140%;
+        width: 100%;
     }
     .sale img {
         height: 50%;
-        width: 104%;
-        margin: 6px 61px;
+        width: 88%;
+        margin: 4px 29px;
         border-radius: 1rem;
+}
+#pop{
+    position: absolute;
+   display: none;
+    transform: translateX(50%);
 }
 .navbar ul{
     display: none;
